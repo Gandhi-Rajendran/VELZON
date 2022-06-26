@@ -9,7 +9,7 @@ const AllTasks = () => {
   const [error, setError] = useState("");
   useEffect(() => {
     setTimeout(() => {
-      fetch("http://localhost:8000/tasks")
+      fetch("https://my-json-server.typicode.com/Gandhi-Rajendran/velzon-json/tasks")
         .then((res) => {
           if (!res.ok) {
             throw Error("Could not fetch the data from that resource!");
