@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/VeLZON/static/css/main.ba036acd.css",
+    "main.js": "/VeLZON/static/js/main.08811e65.js",
+    "index.html": "/VeLZON/index.html",
+    "main.ba036acd.css.map": "/VeLZON/static/css/main.ba036acd.css.map",
+    "main.08811e65.js.map": "/VeLZON/static/js/main.08811e65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba036acd.css",
+    "static/js/main.08811e65.js"
+  ]
+}
