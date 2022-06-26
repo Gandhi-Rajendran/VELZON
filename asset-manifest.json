@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/VeLZON/static/css/main.ba036acd.css",
-    "main.js": "/VeLZON/static/js/main.08811e65.js",
-    "index.html": "/VeLZON/index.html",
-    "main.ba036acd.css.map": "/VeLZON/static/css/main.ba036acd.css.map",
-    "main.08811e65.js.map": "/VeLZON/static/js/main.08811e65.js.map"
+    "main.css": "/VELZON/static/css/main.ba036acd.css",
+    "main.js": "/VELZON/static/js/main.b9a71478.js",
+    "index.html": "/VELZON/index.html",
+    "main.ba036acd.css.map": "/VELZON/static/css/main.ba036acd.css.map",
+    "main.b9a71478.js.map": "/VELZON/static/js/main.b9a71478.js.map"
   },
   "entrypoints": [
     "static/css/main.ba036acd.css",
-    "static/js/main.08811e65.js"
+    "static/js/main.b9a71478.js"
   ]
 }
