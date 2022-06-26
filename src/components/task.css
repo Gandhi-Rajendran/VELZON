@@ -1,0 +1,175 @@
+/* task-list */
+.task-container {
+  background-color: white;
+  margin-top: 20px;
+}
+.task-header {
+  padding: 12px;
+  width: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed lightgray;
+}
+.checkbox input {
+  margin-left: 12px;
+}
+.btn {
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+.create-btn {
+  font-size: 12px;
+  background-color: rgba(255, 0, 0, 0.75);
+  color: white;
+  margin-right: 3px;
+}
+.delete-btn {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+/* Task Filter */
+.task-filter{
+  border-bottom: 1px dashed lightgray;
+}
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px;
+  /* background-color: yellow; */
+}
+.filter-container input,
+.filter-container select,
+.filter-container .filter-btn {
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+}
+.filter-search {
+  width: 45%;
+  position: relative;
+}
+.filter-search input {
+  background-color: rgba(236, 241, 243, 0.5);
+  width: 100%;
+  padding-left: 30px;
+}
+.filter-search > input:focus,
+.filter-date > input:focus,
+.filter-all > select:focus {
+  outline: 1px solid lightgray;
+}
+.filter-search .filter-search-icon {
+  position: absolute;
+  top: 26%;
+  left: 2%;
+}
+.filter-date {
+  width: 21%;
+}
+.filter-date input {
+  width: 100%;
+  background-color: rgba(236, 241, 243, 0.5);
+}
+.filter-all {
+  width: 21%;
+}
+.filter-all select {
+  width: 100%;
+  background-color: rgba(236, 241, 243, 0.5);
+}
+.filter-container .filter-btn {
+  padding: 8px 18px;
+  color: white;
+  background-color: #6000a0;
+}
+.filter-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.filter-btn span {
+  padding-right: 5px;
+}
+/* TaskList */
+.table-container {
+  background-color: white;
+  width: 100%;
+}
+.table-header th {
+  color: grey;
+  background-color: rgba(236, 241, 243, 0.5);
+  text-align: left;
+  font-size: 11px;
+  font-weight: 900;
+  padding: 12px 0;
+}
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  border-bottom: 1px solid lightgray;
+  border-collapse: collapse;
+}
+
+/* table-list */
+.table-body {
+  padding: 12px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.table-body td {
+  padding: 10px 0;
+}
+.table-body:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.checkbox input:hover {
+  cursor: pointer;
+}
+.id-project {
+  color: #1a237e;
+}
+.table-body div {
+  font-size: 8.5px;
+  font-weight: 900;
+  display: inline-block;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+/* status column */
+.table-body .NEW {
+  background-color: #e0f2f1;
+  color: #0e6791;
+}
+.table-body .INPROGRESS {
+  background-color: #e8eaf6;
+  color: blue;
+}
+.table-body .COMPLETED {
+  background-color: #e0f7fa;
+  color: rgb(55, 191, 148);
+}
+.table-body .PENDING {
+  background-color: #fff9c4;
+  color: #ffc107;
+}
+/* priority column */
+.table-body .LOW {
+  color: white;
+  background-color: rgb(55, 191, 148);
+}
+.table-body .MEDIUM {
+  color: white;
+  background-color: #ffd54f;
+}
+.table-body .HIGH {
+  color: white;
+  background-color: rgba(255, 0, 0, 0.75);
+}

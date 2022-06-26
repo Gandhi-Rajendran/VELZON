@@ -1,0 +1,103 @@
+/* overlay */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 10;
+}
+
+/* Create Task or Add Task */
+body {
+  width: 100vw;
+}
+.add-task-container {
+  background-color: white;
+  width: 600px;
+  border-radius: 3px;
+  display: inline-block;
+  box-sizing: border-box;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: 30;
+}
+.add-task-header {
+  background-color: #bbdefb;
+  background-color: #b8f1f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-radius: 3px 3px 0 0;
+}
+.close-icon:hover {
+  cursor: pointer;
+}
+.add-task-form {
+  margin: 14px;
+}
+.add-task-form input,
+select {
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.add-task-form input:focus,
+.add-task-form select:focus {
+  outline: 0.1px solid darkgray;
+}
+.form-field {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.add-task-form label {
+  font-size: 11.5px;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.add-task-form input,
+.add-task-form select {
+  border: 1px solid lightgray;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.sub-field {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 900;
+  box-sizing: border-box;
+}
+.sub-field-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 5px;
+}
+.sub-field-input input,
+.sub-field-input select {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 8px 12px;
+}
+.form-btn {
+  text-align: end;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.close-btn {
+  font-weight: 600;
+  margin-right: 8px;
+}
+.add-btn {
+  color: white;
+  background-color: #48c9b0;
+}

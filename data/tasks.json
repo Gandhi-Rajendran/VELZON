@@ -1,0 +1,76 @@
+{
+  "tasks": [
+    {
+      "id": "#VLZ601",
+      "project": "Velzon - v1.0.0",
+      "task": "Profile Page Satructure",
+      "clientname": "Robert McMahon",
+      "duedate": "25 Jan, 2022",
+      "status": "INPROGRESS",
+      "priority": "LOW"
+    },
+    {
+      "id": "#VLZ602",
+      "project": "Skote - v1.0.0",
+      "task": "Apologize for shopping Error!",
+      "clientname": "Nathan Cole",
+      "duedate": "23 Oct, 2021",
+      "status": "COMPLETED",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "#VLZ603",
+      "project": "Minia - v1.0.0",
+      "task": "Post launch reminder/ Post list",
+      "clientname": "Joseph Parker",
+      "duedate": "05 Oct, 2021",
+      "status": "PENDING",
+      "priority": "LOW"
+    },
+    {
+      "id": "#VLZ604",
+      "project": "Dason - v1.0.0",
+      "task": "User research",
+      "clientname": "Donald Palmer",
+      "duedate": "11 Dec, 2021",
+      "status": "NEW",
+      "priority": "LOW"
+    },
+    {
+      "id": "#VLZ605",
+      "project": "Minible - v1.0.0",
+      "task": "Make a creating an account profile",
+      "clientname": "Henry Baird",
+      "duedate": "11 Jan, 2019",
+      "status": "INPROGRESS",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "#VLZ606",
+      "project": "Minimal v2.1.0",
+      "task": "Change email option process",
+      "clientname": "Tonya Noble",
+      "duedate": "03 Mar, 2020",
+      "status": "COMPLETED",
+      "priority": "HIGH"
+    },
+    {
+      "id": "#VLZ607",
+      "project": "Dorsin - Landing Page",
+      "task": "Benner design for FB & Twitter",
+      "clientname": "Carter",
+      "duedate": "26 Feb, 2019",
+      "status": "PENDING",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "#VLZ608",
+      "project": "Qexal - Landing Page",
+      "task": "Brand Logo design",
+      "clientname": "David Nichols",
+      "duedate": "29 DEC, 2021",
+      "status": "PENDING",
+      "priority": "HIGH"
+    }
+  ]
+}
